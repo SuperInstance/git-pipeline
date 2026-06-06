@@ -1,0 +1,15 @@
+[package]
+name = "git-pipeline"
+version = "0.1.0"
+edition = "2021"
+description = "Git-native CI/CD pipeline using only git primitives"
+license = "MIT"
+
+[dependencies]
+petgraph = "0.7"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+which = "7"
+
+[dev-dependencies]
+tempfile = "3"
